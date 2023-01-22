@@ -5,8 +5,8 @@ from datetime import datetime
 
 start_time = time.time()
 duration = 3600 # 30 minutes in seconds
-source_folder = '/Volumes/G49SylonogyDS120J/private/Unity Project/VRChat/Unity Project/World'
-destination_folder = '/Users/kang49/Downloads/Speedtest'
+source_folder = 'Folder with files to copy'
+destination_folder = './Speedtest_Cache'
 total_speed = 0
 file_count = 0
 

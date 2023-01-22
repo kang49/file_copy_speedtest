@@ -3,8 +3,8 @@ const path = require('path');
 
 const startTime = new Date().getTime();
 const duration = 30 * 60 * 1000; // 30 minutes in milliseconds
-const sourceFolder = '/Volumes/G49SylonogyDS120J/private/Unity Project/VRChat/Unity Project/World';
-const destinationFolder = '/Users/kang49/Downloads/Speedtest';
+const sourceFolder = 'Folder with files to copy';
+const destinationFolder = './Speedtest_Cache';
 let totalSpeed = 0;
 let fileCount = 0;
 
